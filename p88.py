@@ -9,7 +9,7 @@ while i * x <= n:
         a = i
         b = int((n - (i * x)) / y)
         print(a, b)
-	i += 1
+    i += 1
 
 print(-1)
 
