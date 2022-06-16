@@ -1,0 +1,1 @@
+print(' '.join(sorted([str([].append(input().split()[i])) if ((ord(input().split())[i]) - 97) % 2 == 0 else str([].append(input().split()[i].upper())) for i in range(len(str(input().split())))],reverse=True)))

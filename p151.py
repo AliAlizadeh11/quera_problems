@@ -1,0 +1,17 @@
+n1 = list(map(int, input().split()))
+n2 = list(map(int, input().split()))
+n3 = list(map(int, input().split()))
+n4 = list(map(int, input().split()))
+
+l = list()
+a1 = max(n1)
+l.append(a1)
+a2 = max(n2)
+l.append(a2)
+a3 = max(n3)
+l.append(a3)
+a4 = max(n4)
+l.append(a4)
+
+maximum = l.index(max(l))
+print(maximum+1)
