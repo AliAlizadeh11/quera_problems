@@ -23,7 +23,7 @@ def intersperse(seq, value):
     return result
 
 
-def final_answer(first_list : list, second_second_list : list) -> list:
+def final_answer(first_list : list, second_list : list) -> list:
     first_list = calculate1(numbers)
     second_list = intersperse(calculate2(numbers), "")
     index_l = 0
